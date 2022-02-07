@@ -1,0 +1,19 @@
+Package: GLopR1
+Type: Package
+Title: It ckecks normality of the data and provides descritive statistics
+Version: 0.1.0
+Author: G. Lopez
+Maintainer: The package maintainer <gerard.lopezd@gmail.com>
+Description: This package is intended to provide statistics graphs, such as
+  histogram and boxplot for a set of data. In addition, this tool can ckeck 
+  whether or not the data come from a normally distributed population. Finally,
+  a dataframe with a summary of the descriptive statatiscs of the data.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
+Imports: stats
+Suggests: 
+    rmarkdown,
+    knitr
+VignetteBuilder: knitr
